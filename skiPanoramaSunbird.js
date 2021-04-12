@@ -42,7 +42,3 @@ module.exports = {
     goToHeavenCanWait,    
 }
 
-// Build function to find ski pole and add to inventory
-// console.log("Decision - Do you have a pole - Yes")
-// // Build function to check for pole and if true use to fight bear
-// console.log("Action - fight off bear - return to Sunbird")
