@@ -1,0 +1,22 @@
+{
+  "name": "choseyourownadventurev1.2",
+  "version": "1.0.0",
+  "description": "This is V1.2 that I started up on Git because my first project wasn't setup quite right",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottLuxton/choseYourOwnAdventureV1.2.git"
+  },
+  "author": "Scott Luxton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottLuxton/choseYourOwnAdventureV1.2/issues"
+  },
+  "homepage": "https://github.com/ScottLuxton/choseYourOwnAdventureV1.2#readme",
+  "dependencies": {
+    "mongodb": "^3.6.6"
+  }
+}
