@@ -1,14 +1,12 @@
 /*
 To do:
-Create Git repo - done, but is it right?
+Create Git repo - done, but is it right? - Done
 Create local file and access in terminal - Done
-Create flow chart - Ongoing - How far to go? (start small)
-Build array of objects; ['ski pole', 'energy bar', 'etc..',]
-Build functions for all decisions? - Turn decisions into functions
-Build functions for all actions?
+Create flow chart - Ongoing - How far to go? (start small) - Working
+Build array of objects; ['ski pole', 'energy bar', 'etc..',] - yourBackpack
+Build functions for all decisions? - Turn decisions into functions ski files
 Build functions to pick up / drop / use items?
-Make sure functions are running not just showing up ie "undefined" "true" "false"
-Not sure about the expressJS, API, ReadMe and Node requirements yet
+Not sure about the expressJS, API, and Node requirements yet
 
 module.export = {
     functionName
