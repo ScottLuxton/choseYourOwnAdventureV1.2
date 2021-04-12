@@ -26,6 +26,7 @@ console.log(JSON.stringify(skierBob))
 
 
 
+
 // const skierBobAgility = skierBob.agility
 // const skierSallySpeed = skierSally.speed
 
