@@ -1,29 +1,28 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, function() {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+app.get('/', (request, response) => {
+  response.send("Hello Panorama")
 })
 
-// app.get('/sunbird', function(request, response) {
-//     response.send("You are riding the Sunbird chair")
-// })
+app.get('/mile1', function(request, response) {
+  response.send("You are riding the mile1 chair")
+})
 
-// app.get('/', (request, response) => {
-//   response.send("Hello Panorama!");
-// })
+app.get('/backpack', function(request, response) {
+    response.send({
+        backpack: [
+            'gloves',
+            'toque',
+            'boots',
+        ]
+    })
+})
 
-// app.get('/backpack', function(request, response) {
-//     response.send({
-//         backpack: [
-//             'gloves',
-//             'toque',
-//             'boots',
-//         ]
-//     })
-// })
+const port = process.env.PORT || 3000
 
+app.listen(port,function () {
+  console.log(`Game server listening at http://localhost:${port}`)
+})
 
 
