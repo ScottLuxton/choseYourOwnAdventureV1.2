@@ -2,13 +2,17 @@
 // Use items - defend from bear (pole), get energy (bar), enter Tayton bowl(pass)
 // create object backpack and fill with array of items?
 
-const yourCollectables = [
+
+// ?create a function to grab an item and place in backpack ie. move item from itemsToCollect to yourBackpack?
+const itemsToCollect = [
     'ski pole',
     'energy bar',
     'tayton bowl pass',
     'hand warmers',
     'cold beer,'
 ]
+
+const yourBackpack = []
 
 const skierBob = {
     speed : 8,

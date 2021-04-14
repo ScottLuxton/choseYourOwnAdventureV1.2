@@ -37,7 +37,8 @@ skiOldTimer(true)
 
 module.exports = {
     ridingMile1Chair,
-    ridingTobyChair
+    ridingTobyChair,
+    skiOldTimer,
 }
 
 // Build function to use energy bar to ski again or if you don't have go home

@@ -5,7 +5,7 @@ let goToHeavenCanWait = true
 
 
 function ridingTobyChair(goToSunbird){
-    console.log("Decision - Sitting on Toby chair, go to the Sunbird or Mile1?", goToSunbird)
+    console.log("Decision - Sitting on Toby chair, go to the Sunbird or Mile1?",)
     if(goToSunbird){
         console.log("Action - Traverse to the Sunbird")
     } else {
@@ -14,7 +14,7 @@ function ridingTobyChair(goToSunbird){
 }
 
 function skiFritz(goToFritz) {
-    console.log("decision - Riding the Sunbird go to Fritz or Heaven Can Wait?", goToFritz)
+    console.log("decision - Riding the Sunbird go to Fritz or Heaven Can Wait?",)
     if(goToFritz){
         console.log("Action - Ski Fritz")
     } else {
