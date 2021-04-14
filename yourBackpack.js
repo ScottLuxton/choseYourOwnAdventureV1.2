@@ -3,6 +3,8 @@
 // create object backpack and fill with array of items?
 
 
+console.log("hey")
+
 // ?create a function to grab an item and place in backpack ie. move item from itemsToCollect to yourBackpack?
 const itemsToCollect = [
     'ski pole',
