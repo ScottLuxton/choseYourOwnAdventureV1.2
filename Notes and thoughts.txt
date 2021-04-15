@@ -16,16 +16,6 @@ let {fileName} = require('./functionName)
 
 */
 
-welcomeToPanorama ()
-
-const {rideSunbird, skiFritz} = require(`./skiPanoramaSunbird`)
-const {skiShowoff, rideMile1} = require(`./skiPanoramaMile1`)
-
-function welcomeToPanorama (name){
-    console.log("Welcome to Panorama")
-}
-
-
 
 
 
