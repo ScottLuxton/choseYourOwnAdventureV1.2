@@ -13,7 +13,7 @@ async function createScene(id, description, options) {
 
 async function findSceneById(id) {
     let scene = scenes[id]
-    if (!scene) {
+        if (!scene) {
         throw new Error("Scene " + id + " does not exist!")
     }
     return scene

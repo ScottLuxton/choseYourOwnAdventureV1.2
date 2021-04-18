@@ -1,4 +1,4 @@
-const scenes = require('/scenes')
+const scenes = require('./scenes')
 
 scenes.createScene("intro",
 'As you are riding up the toby chair the first decision you must make is where to go next will you head to the Mile1 chairlift or the Sunbird chairlift next?',
