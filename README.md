@@ -1,2 +1,16 @@
 # choseYourOwnAdventureV1.2
-This is V1.2 that I started up on Git because my first project wasn't setup quite right
+
+This is my first choose your own adventure game which was my first EvolveU project, it is a work in progress
+
+To play,
+
+npm install
+npm start
+
+In a second terminal:
+
+curl http://localhost:3000/scene/intro
+
+Have fun skiing Panorama!
+
+

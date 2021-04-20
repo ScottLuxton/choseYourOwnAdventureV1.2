@@ -27,8 +27,11 @@ const skierSally = {
     items : ['blue toque', 'yellow gloves']
 }
 
-console.log(skierBob)
-console.log(JSON.stringify(skierBob))
+module.exports = {
+    itemsToCollect,
+}
+
+
 
 
 

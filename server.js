@@ -3,6 +3,7 @@ require('./model/skiPanorama')
 const sceneRoutes = require('./routes/scene')
 
 const express = require('express')
+const { itemsToCollect } = require('./yourBackpack')
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -15,5 +16,7 @@ app.get('/', (request, response) => {
 app.listen(port,function () {
   console.log(`Game server listening at http://localhost:${port}`)
 })
+
+
 
 
