@@ -1,14 +1,10 @@
-// Collect a ski pole, energy bar, golden pass,
-// Use items - defend from bear (pole), get energy (bar), enter Tayton bowl(pass)
+// Be able to collect items itemsToCollect for later use yourBackpack
+// Use items - defend from bigfoot (big stick), get energy (drink), enter Tayton bowl(pass)
 // create object backpack and fill with array of items?
 
-
-
-
-// ?create a function to grab an item and place in backpack ie. move item from itemsToCollect to yourBackpack?
 const itemsToCollect = [
-    'ski pole',
-    'energy bar',
+    'big stick',
+    'energy drink',
     'tayton bowl pass',
     'hand warmers',
     'cold beer,'
