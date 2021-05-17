@@ -1,5 +1,3 @@
-require('./model/skiPanorama')
-
 const sceneRoutes = require('./routes/scene')
 const itemsToCollect = require('./yourBackpack')
 

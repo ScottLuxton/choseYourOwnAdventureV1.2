@@ -1,4 +1,4 @@
-const scenes = require('./scenes')
+const scenes = require('./scenesInMongo')
 
 scenes.createScene("intro",
 'As you gaze at the majestic mountain the first decision you must make is where to go next will you head to the Mile1 chairlift or the Sunbird chairlift next?',
