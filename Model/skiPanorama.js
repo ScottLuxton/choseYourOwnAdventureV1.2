@@ -1,7 +1,7 @@
 const scenes = require('./scenes')
 
 scenes.createScene("intro",
-'As you are riding up the toby chair the first decision you must make is where to go next will you head to the Mile1 chairlift or the Sunbird chairlift next?',
+'As you gaze at the majestic mountain the first decision you must make is where to go next will you head to the Mile1 chairlift or the Sunbird chairlift next?',
 [
     {description: "head over to the Sunbird and crush some pow", scene: "sunbirdChair"},
     {description: "zip over to the Mile 1 for some action in the park", scene: "mile1Chair"}

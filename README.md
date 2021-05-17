@@ -1,6 +1,6 @@
 # choseYourOwnAdventureV1.2
 
-This is my first choose your own adventure game which was my first EvolveU project, it is a work in progress
+This is my first choose your own adventure game which was my first EvolveU project, it is a work in progress.
 
 To play,
 
